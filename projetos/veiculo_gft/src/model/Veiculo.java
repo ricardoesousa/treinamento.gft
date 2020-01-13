@@ -19,6 +19,7 @@ public class Veiculo {
 	Scanner sc = new Scanner(System.in);
 
 	public String getMarca() {
+
 		return marca;
 	}
 
@@ -159,7 +160,7 @@ public class Veiculo {
 			System.out.println("O carro já está ligado!");
 		else {
 			if (litrosCombustivel <= 0)
-				System.out.println("Abasteça o carro!");
+				System.out.println("Não há combustível.\nAbasteça o carro!");
 			else {
 				isLigado = true;
 				System.out.println("Você ligou o carro!");
